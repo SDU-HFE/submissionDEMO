@@ -33,10 +33,11 @@ Idea来源：疫情隔离期间及隔离后线上支付交易额不断增加，�
 7.	登录注册页面。。应该照常即可
 
 可能用到的词：
-  主界面 Home     
-  登录 login
-  账号 account
-  密码 password
-  头像 profile
-  扫一扫 scan
-  用于计算的int余额 balance
+
+  1.主界面 Home     
+  2. 登录 login
+  3.账号 account
+  4.密码 password
+  5.头像 profile
+  6.扫一扫 scan
+  7.用于计算的int余额 balance
