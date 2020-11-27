@@ -40,4 +40,4 @@ Idea来源：疫情隔离期间及隔离后线上支付交易额不断增加，�
   4.密码 password
   5.头像 profile
   6.扫一扫 scan
-  7.用于计算的int余额 balance
+  7.用于计算的double余额 balance
