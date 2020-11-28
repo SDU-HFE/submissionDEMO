@@ -20,71 +20,77 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="  您的姓名"
-        android:background="@drawable/register_decorate"
+        android:hint="您的姓名"
+        android:background="@drawable/edittext_selector"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
         android:layout_marginBottom="10dp"/>
 
     <EditText
         android:id="@+id/edittext_register_set_account"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="  手机号"
+        android:hint="手机号"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:background="@drawable/register_decorate"
+        android:background="@drawable/edittext_selector"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
         android:layout_marginBottom="10dp"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="  身份证号"
+        android:hint="身份证号"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:background="@drawable/register_decorate"
+        android:background="@drawable/edittext_selector"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
         android:layout_marginBottom="10dp"/>
 
     <EditText
         android:id="@+id/edittext_register_set_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="  设置密码"
+        android:hint="设置密码"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:background="@drawable/register_decorate"
+        android:background="@drawable/edittext_selector"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
         android:layout_marginBottom="10dp"/>
 
     <EditText
         android:id="@+id/edittext_register_identify_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="  请确认密码"
+        android:hint="请确认密码"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:background="@drawable/register_decorate"
+        android:background="@drawable/edittext_selector"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
         android:layout_marginBottom="10dp"/>
 
     <EditText
         android:id="@+id/text_register_identifying_code"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="  请输入手机验证码"
+        android:hint="请输入手机验证码"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:background="@drawable/register_decorate"
+        android:background="@drawable/edittext_selector"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp" />
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"/>
 
     <Button
         android:id="@+id/button_register_identifying_code"

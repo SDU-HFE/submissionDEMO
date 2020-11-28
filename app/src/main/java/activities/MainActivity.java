@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.example.hfe.R;
 
+import register.Register;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -41,6 +42,16 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent1);
                         finish();
 
+            }
+        });
+//        注册
+        mnewaccount = findViewById(R.id.button_login_newaccount);
+        mnewaccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "热烈欢迎萌新！！！！", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, Register.class);
+                startActivity(intent);
             }
         });
 
