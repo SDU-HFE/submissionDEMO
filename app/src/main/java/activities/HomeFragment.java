@@ -56,6 +56,7 @@ public class HomeFragment extends Fragment {
             tipBelowScan.setText(str);
         }
 
+
         //主界面显示余额
         TextView balance = view.findViewById(R.id.Home_balanceText);
         String str = "余额为：" + mbalance;
