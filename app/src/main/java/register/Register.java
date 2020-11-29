@@ -15,8 +15,8 @@ import com.example.hfe.R;
 
 import HelperAndAdapter.DateBaseHelper;
 import HelperAndAdapter.Http.HttpUtil;
+import HelperAndAdapter.Http.PostHttpUtil;
 import activities.Home;
-import activities.MainActivity;
 
 
 public class Register extends AppCompatActivity {
@@ -51,12 +51,13 @@ public class Register extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+
                 if (mpassword.length() < 6 || mpassword.length() > 10) {
                     Toast.makeText(Register.this, "密码不符合标准", Toast.LENGTH_SHORT).show();
                 } else if (mpassword.getText().toString().equals(npassword.getText().toString()) == false) {
                     Toast.makeText(Register.this, "密码不一致，请重新输入", Toast.LENGTH_SHORT).show();
                 } else {
-                    HttpUtil.sendHttpRequest("http://120.24.33.180:8080/register?user=" + newAccount + "&&password=" + newpassword);
+                    PostHttpUtil.sendHttpRequest("http://120.24.33.180:8081/register?username="+ newAccount+"&password="+newpassword );
                     if ("密码不可为空".equals(HttpUtil.msg)) {
                         Toast.makeText(Register.this, "密码不可为空", Toast.LENGTH_SHORT).show();
                     } else if ("用户已存在".equals(HttpUtil.msg)) {

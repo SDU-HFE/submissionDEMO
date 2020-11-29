@@ -17,15 +17,11 @@ private Button home;
 private Button personal;
     Context myContext;
 
-    public Home(Context context){
-        myContext = context;
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-//        replaceFragment(new HomeFragment());
+        replaceFragment(new HomeFragment(Home.this));
         home=findViewById(R.id.button_home);
         personal=findViewById(R.id.button_personal);
         home.setBackgroundResource(R.drawable.home_clickeed);
@@ -47,12 +43,12 @@ private Button personal;
             case R.id.button_home:
                 home.setBackgroundResource(R.drawable.home_clickeed);
                 personal.setBackgroundResource(R.drawable.personal);
-//                replaceFragment(new );
+                replaceFragment(new HomeFragment(Home.this));
                 break;
             default:
                 home.setBackgroundResource(R.drawable.home);
                 personal.setBackgroundResource(R.drawable.personal_clicked);
-//                replaceFragment();
+                replaceFragment(new UserAccountFragment(Home.this));
                 break;
         }
     }

@@ -35,12 +35,11 @@
             android:id="@+id/Home_scan"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:foreground="@drawable/scan"
+            android:src="@drawable/scan"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
             android:background="@drawable/scan_decorate2"
             />
-        <!--            android:src="@drawable/scan"-->
         <TextView
             android:id="@+id/Home_tipBelowScan"
             android:layout_width="match_parent"
@@ -48,6 +47,11 @@
             android:textSize="35sp"
             android:gravity="center"
             android:layout_marginTop="10dp"/>
+        
+        <TextView
+            android:id="@+id/text_scan_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 

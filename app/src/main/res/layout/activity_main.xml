@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/login_pic"
         android:text="让您支付更轻松"
-        android:textSize="18dp"
+        android:textSize="22dp"
         android:textColor="#0099ff"
         android:gravity="center"/>
     </LinearLayout>
@@ -46,7 +46,7 @@
             android:layout_height="80dp"
             android:inputType="text"
             android:textColorHint="#000000"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:maxLines="1"
             android:hint="手机号:" />
 
@@ -57,7 +57,7 @@
             android:layout_height="80dp"
             android:inputType="textPassword"
             android:textColorHint="#000000"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:maxLines="1"
             android:hint="密码:" />
     </RelativeLayout>
@@ -71,7 +71,7 @@
                 android:id="@+id/button_login"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
-                android:textSize="20dp"
+                android:textSize="25sp"
                 android:text="登录"
                 android:textColor="#000000"
                 android:background="#00000000"/>
@@ -79,7 +79,7 @@
                 android:id="@+id/button_login_newaccount"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
-                android:textSize="20dp"
+                android:textSize="25sp"
                 android:text="注册"
                 android:textColor="#0099ff"
                 android:background="#00000000"/>
@@ -87,7 +87,7 @@
                 android:id="@+id/login_findpassword"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
-                android:textSize="20dp"
+                android:textSize="25sp"
                 android:text="忘记密码"
                 android:textColor="#0099ff"
                 android:background="#00000000"/>

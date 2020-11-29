@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activities.HomePageActivity"
+    android:background="#F1F1F1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="#40C4FF"/>
+            <!--                android:id="@+id/image_homePage_upper_profilePreView"-->
+
+            <RelativeLayout
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/rela_homePage_userAccount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/whiteForText"
+                        android:layout_alignParentBottom="true"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentLeft="true"
+                            android:gravity="center"
+                            android:text="支付宝账号"
+                            android:textColor="#6F6F6F"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:layout_margin="10dp"/>
+
+                        <TextView
+                            android:id="@+id/text_homaPage_userAccountAsPhoneNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:text="12345678901"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/whiteForText"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentLeft="true"
+                            android:gravity="center"
+                            android:text="真实姓名"
+                            android:textColor="#6F6F6F"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:layout_margin="10dp"/>
+
+                        <TextView
+                            android:id="@+id/text_homaPage_userRealName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:text="姓名"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/image_HomePage_profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foreground="@drawable/profile_foreground_white_margin"
+                android:src="@drawable/profile_background_icon_with_margin"/>
+
+            <Button
+                android:id="@+id/button_HomePage_profileCovered"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="#00ffffff"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00ffffff">
+
+                <Button
+                    android:id="@+id/button_homePage_navigationBar_back"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/arrow_left"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text=" "
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@color/whiteForText" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
