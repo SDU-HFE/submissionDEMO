@@ -19,8 +19,8 @@ public class HomeFragment extends Fragment {
     private static final int STORAGE_PERMISSION = 13;
 
     private View view;
-    private Double mbalance = 100.0;
-    static boolean certificated;
+    private Double mbalance = 0.0;
+    static boolean certificated=true;
     private ImageButton lifePay;
     Context myContext;
     private ImageButton scan;
